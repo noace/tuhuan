@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+}
+.header {
+    padding: 15px 0;
+}
+
+/* first */
+.background {
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(59, 190, 122, .9);
+    width: 130px;
+    height: 70px;
+    padding: 10px 0 0;
+    margin: -15px 0 0;
+}
+
+.logo {
+    width: 80px;
+    height: 56px;
+    background-image: url(./img/logo-pc.svg);
+    background-repeat: no-repeat;
+    margin: 0 25px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 16px 25px 5px;
+}
+
+#aboutMe {
+    color: #3bbe7a;
+}
+
+.line-top {
+    border-top: 1px solid #3bbe7a;
+    width: 18px;
+    margin: 3px auto;
+}
+
+.nav {
+    margin: 0 auto;
+    float: right;
+}
+
+.row {
+    width: 1170px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#download {
+    border: 1px solid #3bbe7a;
+    padding: 6px 25px;
+    color: #3bbe7a;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.mid-img {
+    position: relative;
+    background-image: url('./img/clipboard.png');
+    height: 680px;
+    width: 100%;
+    background-size: auto;
+    object-fit: cover;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.square {
+    overflow: hidden;
+}
+
+/* second */
+
+.second {
+    /* 响应式布局 */
+    margin: 0 131.5px;
+    padding: 0 15px;
+}
+
+.second-top {
+    padding:  100px 0 80px;
+}
+
+.line {
+    border-top: 1px solid #3bbe7a;
+    width: 30px;
+    margin: 20px auto 40px;
+}
+
+.line-bottom-1 {
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    font-style: normal;
+}
+
+
+.puhui {
+    padding: 66.6px 37px;
+    background-color: rgba(59,190,122,.8);
+    float: left;
+    margin: 0 15px;
+}
+
+.puhui > .img {
+    margin: 0 93px;
+    background-image: url(./img/puhui.svg);
+    background-size: 110px 110px;
+    width: 110px;
+    height: 110px;
+}
+
+.puhui > h4 {
+    margin-top: 9%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.puhui .text {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255,255,255,.8);
+}
+
+.puhui .text2 {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255,255,255,.8);
+    padding: 2px 0 0;
+}
+
+.puhui > .chuangxin-img {
+    margin: 0 93px;
+    background-image: url(./img/chuangxin.svg);
+    background-size: 110px 110px;
+    width: 110px;
+    height: 110px;
+}
+
+.puhui > .chonggou-img {
+    margin: 0 93px;
+    background-image: url(./img/chonggou.svg);
+    background-size: 110px 110px;
+    width: 110px;
+    height: 110px;
+}
+
+.square {
+    clear: both;
+}
+
+/* third */
+
+.third {
+    margin: 0 131.5px;
+    padding: 0 15px;
+}
+
+.third > .third-top {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 100px 0 80px;
+}
+
+.left {
+    overflow: hidden;
+}
+
+.left > img{
+    width: 808px;
+    height: 420px;
+}
+
+.right-back{
+    background-color: rgba(59,190,122,.8);
+    float: right;
+    width: 415px;
+    height: 420px;
+}
+
+.right-icon {
+    margin: 0 117px;
+    background-image: url(./img/xietiaozhuanyuan-ico.png);
+    width: 64px;
+    height: 64px;
+}
+
+.right-name {
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.description {
+    color: rgba(255,255,255,.8);
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+}
+
+.right-back > .content {
+   width: 331px;
+   height: 221px;
+}
+
+.forth > .content {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 100px 0 80px;
+}
+
+#forthText {
+    margin: 40px 0 0;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.fifth {
+    background-image: url(./img/about-yuanjing.jpg);
+    width: 100%;
+    height: 420px;
+}
+
+.container-text {
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    font-style: normal;
+    color: rgba(255,255,255,.8);
+}
+
+.fifth > .container {
+    margin: 105px 0 0;
+}
+
+.container-pic {
+    
+}
