@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-.header {
+.header-container {
     padding: 15px 0;
 }
 
@@ -55,6 +55,7 @@ ul li {
     width: 1170px;
     height: 50px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #download {
@@ -81,17 +82,19 @@ h3 {
     margin: 0;
 }
 
-.square {
-    overflow: hidden;
-}
-
 /* second */
 
-.second {
-    /* 响应式布局 */
-    margin: 0 131.5px;
-    padding: 0 15px;
+.container {
+    /* 固定内外边距 */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 366.5px;
+    margin-left: 366.5px;
 }
+
+/* .second-content {
+    width: 100%;
+} */
 
 .second-top {
     padding:  100px 0 80px;
@@ -111,6 +114,18 @@ h3 {
     font-style: normal;
 }
 
+.square {
+    overflow: hidden;
+
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.second-pic {
+    margin-left: -30px;
+    margin-right: -30px;
+    width: 100%;
+}
 
 .puhui {
     padding: 66.6px 37px;
@@ -165,15 +180,11 @@ h3 {
     height: 110px;
 }
 
-.square {
-    clear: both;
-}
-
 /* third */
 
 .third {
-    margin: 0 131.5px;
-    padding: 0 15px;
+    margin-right: 366.5px;
+    margin-left: 366.5px;
 }
 
 .third > .third-top {
@@ -195,7 +206,7 @@ h3 {
 .right-back{
     background-color: rgba(59,190,122,.8);
     float: right;
-    width: 415px;
+    width: 362px;
     height: 420px;
 }
 
@@ -224,7 +235,7 @@ h3 {
    height: 221px;
 }
 
-.forth > .content {
+.forth-content {
     text-align: center;
     font-size: 24px;
     font-weight: normal;
@@ -254,15 +265,11 @@ h3 {
     color: rgba(255,255,255,.8);
 }
 
-.fifth > .container {
-    /* margin: 105px 0 0; */
-    /* width: 1170px; */
-}
-
-.container{
+.fifth-container{
     width: 1170px;
-    height: 323.8px;
-    margin: 0 -15px;
+    height: 100%;
+    margin-right: 366.5px;
+    margin-left: 366.5px;
 }
 
 .container-pic {
@@ -285,14 +292,68 @@ h3 {
     padding: 0 0 7px;
 }
 
-.sixth-footer {
+.sixth {
     width: 100%;
-    height: 139.72px;
     background-color: #333;
+    padding: 46.5px 0; 
+}
+
+.sixth-footer {
+    width: 1170px;
+    height: 47px;
+    margin-right: 366.5px;
+    margin-left: 366.5px;
+    overflow: hidden;
 }
 
 .copyright {
     font-size: 12px;
     color: rgba(102,102,102,.8);
     font-style: normal;
+}
+
+.links {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+a {
+    float: left;
+    color: rgba(170,170,170,.8);
+    text-decoration: none;
+    margin-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.bor-line {
+    width: 1px;
+    height: 10px;
+    border-right: 1px solid rgba(170,170,170,.5);
+    margin-top: 6px;
+    float: left;
+}
+
+.phone {
+    width: 42px;
+    height: 42px;
+    float: right;
+    background-image: url(./img/shouji-logo-icon.svg);
+    background-size: 42px 42px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-right: 20px;
+}
+
+.weixin {
+    width: 42px;
+    height: 42px;
+    float: right;
+    background-image: url(./img/wewix-ico.svg);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.six-left {
+    float: left;
 }
